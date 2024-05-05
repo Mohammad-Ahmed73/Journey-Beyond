@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Elemental End';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Elemental-end.woff2') format('woff2'),
+         url('../fonts/Elemental-end.woff') format('woff'),
+         url('../fonts/Elemental-end.ttf') format('TrueType');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/avenir-roman.woff2') format('woff2'),
+         url('../fonts/avenir-roman.woff') format('woff'),
+         url('../fonts/avenir-roman.ttf') format('TrueType');
+}
+
+@font-face {
+    font-family: 'Clash Display Variable';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/ClashDisplayExtralight.woff2') format('woff2'),
+         url('../fonts/ClashDisplayExtralight.woff') format('woff'),
+         url('../fonts/ClashDisplayExtralight.ttf') format('TrueType');
+}
+
+@font-face {
+    font-family: 'Clash Display Variable';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/ClashDisplayLight.woff2') format('woff2'),
+         url('../fonts/ClashDisplayLight.woff') format('woff'),
+         url('../fonts/ClashDisplayLight.ttf') format('TrueType');
+}
+
+@font-face {
+    font-family: 'Clash Display Variable';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/ClashDisplayRegular.woff2') format('woff2'),
+         url('../fonts/ClashDisplayRegular.woff') format('woff'),
+         url('../fonts/ClashDisplayRegular.ttf') format('TrueType');
+}
+
+@font-face {
+    font-family: 'Clash Display Variable';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/ClashDisplayMedium.woff2') format('woff2'),
+         url('../fonts/ClashDisplayMedium.woff') format('woff'),
+         url('../fonts/ClashDisplayMedium.ttf') format('TrueType');
+}
+
+@font-face {
+    font-family: 'Clash Display Variable';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/ClashDisplaySemibold.woff2') format('woff2'),
+         url('../fonts/ClashDisplaySemibold.woff') format('woff'),
+         url('../fonts/ClashDisplaySemibold.ttf') format('TrueType');
+}
+
+@font-face {
+    font-family: 'Clash Display Variable';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/ClashDisplayBold.woff2') format('woff2'),
+         url('../fonts/ClashDisplayBold.woff') format('woff'),
+         url('../fonts/ClashDisplayBold.ttf') format('TrueType');
+}
+
+@font-face {
+    font-family: 'AG';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/AG.woff2') format('woff2'),
+         url('../fonts/AG.woff') format('woff'),
+         url('../fonts/AG.ttf') format('TrueType');
+}
+
+@font-face {
+    font-family: 'AG';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/BansheePilot.woff2') format('woff2'),
+         url('../fonts/BansheePilot.woff') format('woff'),
+         url('../fonts/BansheePilot.ttf') format('TrueType');
+}
+
+@font-face {
+    font-family: 'Banshee Pilot';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/BansheePilot.woff2') format('woff2'),
+         url('../fonts/BansheePilot.woff') format('woff'),
+         url('../fonts/BansheePilot.ttf') format('TrueType');
+}
+
+@font-face {
+    font-family: 'Banshee Pilot';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/BansheePilotBold.woff2') format('woff2'),
+         url('../fonts/BansheePilotBold.woff') format('woff'),
+         url('../fonts/BansheePilotBold.ttf') format('TrueType');
+}
+
+.font-family-AG {
+    font-family: 'AG', sans-serif;
+}
