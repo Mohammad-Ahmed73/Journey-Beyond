@@ -6,7 +6,7 @@ import './assets/css/style.css';
 import Header from './components/Navbar.jsx';
 import Footer from './components/footer.jsx';
 import Home from './pages/Home';
-import Product from './pages/Product';
+import Ecosystem from './pages/Ecosystem.jsx';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/product' element={<Product />} />
+          <Route path='/ecosystem' element={<Ecosystem />} />
         </Routes>
       </Router>
       <Footer />

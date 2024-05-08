@@ -1,16 +1,17 @@
 import React from "react";
 import { Container, Row, Col, Figure, Image } from "react-bootstrap";
-import BannerImage from "../assets/images/banner-bg-image.png";
+import BannerVideo from "../assets/videos/EyeofJourneyBound.mp4";
 import JBWhiteImage from "../assets/images/JB_white.png";
 import BaseLogo from "../assets/images/base-logo.png";
 import AtriumLogo from "../assets/images/Atrium-logo.png";
 
+
 function Banner() {
-  const BackgroundImage = {
-    backgroundImage: `url(${BannerImage})`,
-  };
   return (
-    <section className="banner-main d-flex align-items-center justify-content-center" style={BackgroundImage}>
+    <section className="banner-main d-flex align-items-center justify-content-center position-relative overflow-hidden">
+      <video autoplay loop className="position-absolute top-0 left-0 w-100 h-100 bg-video">
+        <source src={BannerVideo} type="video/mp4" />
+      </video>
       <Container fluid="lg">
         <div className="text-center">
           <Figure className="mb-5">

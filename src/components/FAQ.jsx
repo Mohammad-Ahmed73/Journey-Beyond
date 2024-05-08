@@ -10,7 +10,8 @@ function FAQ () {
     backgroundSize: "cover",
   };
   return (
-    <section className="py-5 faq-section" style={SectionBGImage}>
+   <>
+     <section className="py-5 faq-section" style={SectionBGImage}>
       <Container fluid="lg">
       <Row className="mb-4 align-items-center">
         <Col lg={6} className="mb-3 mb-lg-0">
@@ -54,6 +55,12 @@ function FAQ () {
       </Accordion>
     </Container>
     </section>
+    <div className="py-3">
+      <Container>
+        <div className="divider"></div>
+      </Container>
+    </div>
+   </>
   );
 };
 

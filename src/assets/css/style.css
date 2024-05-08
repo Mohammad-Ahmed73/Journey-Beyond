@@ -6,7 +6,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: 35px 0px;
+  z-index: 0;
 }
+
+.bg-video {
+  transform: scale(1.4);
+  z-index: -1;
+}
+
 .banner-main .title {
   font-size: 28px;
   line-height: 42px;
@@ -577,4 +584,30 @@
   .why-journey-bound .title {
     border-bottom: 2px solid #8f98b5;
   }
+}
+
+
+.video-column {
+  background: linear-gradient(179.98deg, rgba(0, 0, 0, 0.6) 0.02%, rgba(0, 0, 0, 0) 157.58%);
+  max-height: 720px;
+}
+
+.ecosystem-right-content-video .bg-video {
+  transform: scale(1.8);
+  z-index: -1;
+}
+
+.scrollable-content {
+  max-height: 720px;
+  overflow: auto;
+}
+
+.scrollable-content::-webkit-scrollbar {
+  display: none;   
+}
+
+.ecosystem-right-content-video  .content-wrapper {
+  width: 100%;
+  max-width: 520px;
+  margin-inline: auto;
 }
