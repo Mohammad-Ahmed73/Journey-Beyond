@@ -13,7 +13,8 @@ function HomeLeftContentImage() {
     backgroundSize: "cover",
   };
   return (
-    <section className="homeLeftContentImage">
+    <>
+      <section className="homeLeftContentImage">
       <Container fluid>
         <Row>
           <Col
@@ -61,6 +62,12 @@ function HomeLeftContentImage() {
         </Row>
       </Container>
     </section>
+    <section className="py-4">
+      <Container fluid="lg">
+        <h2 className="head-h2 font-family-Avenir fw-normal mb-0 text-center">Join the Web3 Psychedelic Revolution</h2>
+      </Container>
+    </section>
+    </>
   );
 }
 
