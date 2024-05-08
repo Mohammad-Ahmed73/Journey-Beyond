@@ -2,6 +2,7 @@
     --white: #FFFFFF;
     --primary-color: #7D06EE;
     --black: #000000;
+    --light-white: #D1D1D1;
 }
 
 * {
@@ -46,18 +47,18 @@ a {
 
 
 .head-h1 {
-    font-size: 36px;
-    line-height: 46px;
+    font-size: 32px;
+    line-height: 40px;
 }
 
 .head-h2 {
-    font-size: 32px;
-    line-height: 42px;
+    font-size: 24px;
+    line-height: 34px;
 }
 
 .head-h3 {
-    font-size: 28px;
-    line-height: 38px;
+    font-size: 20px;
+    line-height: 28px;
 }
 
 .head-h4 {
@@ -109,47 +110,66 @@ a {
     background-color: var(--primary-color);
 }
 
+.light-white {
+    color: var(--light-white);
+}
+
 
 @media (min-width: 768px) {
     .head-h1 {
-        font-size: 42px;
-        line-height: 52px;
+        font-size: 36px;
+        line-height: 44px;
     }
 
     .head-h2 {
-        font-size: 36px;
-        line-height: 46px;
+        font-size: 28px;
+        line-height: 36px;
     }
 
     .head-h3 {
-        font-size: 32px;
-        line-height: 42px;
+        font-size: 24px;
+        line-height: 32px;
     }
 
     .head-h4 {
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 24px;
+        line-height: 36px;
     }
 
     .head-h5 {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 28px;
+    }
+
+    .head-h6 {
+        font-size: 18px;
+        line-height: 26px;
     }
 }
 
 @media (min-width: 992px) {
     .head-h1 {
-        font-size: 50px;
-        line-height: 60px;
+        font-size: 40px;
+        line-height: 48px;
     }
 
     .head-h2 {
-        font-size: 40px;
-        line-height: 50px;
+        font-size: 32px;
+        line-height: 44px;
     }
 
     .head-h3 {
-        font-size: 36px;
-        line-height: 46px;
+        font-size: 28px;
+        line-height: 36px;
     }
+}
+
+.divider {
+    box-shadow: 0px 0px 19px 5px #7D2CFEF2;
+    width: 100%;
+    height: 3px;
+    max-width: 450px;
+    margin-inline: auto;
+    margin-block: 40px;
+    background: #FFFFFF;
 }

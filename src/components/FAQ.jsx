@@ -1,15 +1,23 @@
 import React from "react";
 import { Row, Container, Col, Figure, Image, Accordion } from "react-bootstrap";
+import BackgroundImage from "../assets/images/FAQ-bg-image.png";
 
-const FAQ = () => {
+function FAQ () {
+  const SectionBGImage = {
+    backgroundImage: `url(${BackgroundImage})`,
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+  };
   return (
-    <Container fluid="lg">
-      <Row>
-        <Col lg={6}>
-            <h2 className="font-family-ElementalEnd fw-normal text-center">fAQ</h2>
+    <section className="py-5 faq-section" style={SectionBGImage}>
+      <Container fluid="lg">
+      <Row className="mb-4 align-items-center">
+        <Col lg={6} className="mb-3 mb-lg-0">
+            <h2 className="title font-family-ElementalEnd fw-normal text-center mb-0">fAQ</h2>
         </Col>
         <Col lg={6}>
-            <h3 className="font-family-Avenir fw-normal text-center">Frequently Asked Questions</h3>
+            <h2 className="head-h1 font-family-Avenir fw-normal text-center mb-0">Frequently Asked Questions</h2>
         </Col>
       </Row>
       <Accordion className="faq-accordion" defaultActiveKey="0">
@@ -45,6 +53,7 @@ const FAQ = () => {
         </Row>
       </Accordion>
     </Container>
+    </section>
   );
 };
 

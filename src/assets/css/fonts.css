@@ -80,15 +80,6 @@
 }
 
 @font-face {
-    font-family: 'AG';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/BansheePilot.woff2') format('woff2'),
-         url('../fonts/BansheePilot.woff') format('woff'),
-         url('../fonts/BansheePilot.ttf') format('TrueType');
-}
-
-@font-face {
     font-family: 'Banshee Pilot';
     font-style: normal;
     font-weight: 400;
@@ -111,9 +102,17 @@
 }
 
 .font-family-ElementalEnd {
-    font-family: 'Elemental End';
+    font-family: 'Elemental End', sans-serif;
 }
 
 .font-family-Avenir {
-    font-family: 'Avenir';
+    font-family: 'Avenir', sans-serif;
+}
+
+.font-family-Clash-Display-Variable {
+    font-family: 'Clash Display Variable', sans-serif;
+}
+
+.font-family-Banshee-Pilot {
+    font-family: 'Banshee Pilot', sans-serif;
 }
