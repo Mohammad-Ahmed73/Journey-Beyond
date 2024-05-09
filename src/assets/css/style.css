@@ -589,7 +589,6 @@
 
 .video-column {
   background: linear-gradient(179.98deg, rgba(0, 0, 0, 0.6) 0.02%, rgba(0, 0, 0, 0) 157.58%);
-  max-height: 720px;
 }
 
 .ecosystem-right-content-video .bg-video {
@@ -610,4 +609,18 @@
   width: 100%;
   max-width: 520px;
   margin-inline: auto;
+}
+
+@media (min-width: 992px) {
+  .video-column {
+    max-height: 720px;
+  }
+}
+
+.simple-logo-section {
+  background: linear-gradient(90deg, #999999 0%, #FFFFFF 100%);
+}
+
+.simple-logo-section .wrapper {
+  border: 2px solid #CB6CE6
 }

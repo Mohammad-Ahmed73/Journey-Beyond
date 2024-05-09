@@ -1,9 +1,12 @@
 .navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
     background-color: #000000;
     padding: 20px 0;
 }
 
-.navbar  .container-lg {
+.navbar .container-lg {
     max-width: 1278px;
 }
 
@@ -49,6 +52,7 @@
 @media (max-width: 991px) {
     .navbar .navbar-nav {
         gap: 30px;
+        z-index: 99;
     }
 
     .navbar .navbar-collapse {
@@ -57,7 +61,7 @@
         top: 100%;
         width: 100%;
         padding: 20px 20px;
-        background: #FFEAC6;
+        background: #000000;
         box-shadow: 0px 8px 12px -13px #000;
     }
 
