@@ -22,6 +22,14 @@ img {
     max-width: 100%;
 }
 
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.object-position-center {
+    object-position: center;
+}
+
 a {
     color: #FFFFFF;
 }
@@ -152,8 +160,8 @@ a:hover {
     }
 
     .head-h4 {
-        font-size: 24px;
-        line-height: 36px;
+        font-size: 20px;
+        line-height: 32px;
     }
 
     .head-h5 {
@@ -182,6 +190,11 @@ a:hover {
         font-size: 28px;
         line-height: 36px;
     }
+
+    .head-h4 {
+        font-size: 24px;
+        line-height: 36px;
+    }
 }
 
 .divider {
@@ -192,4 +205,5 @@ a:hover {
     margin-inline: auto;
     margin-block: 40px;
     background: #FFFFFF;
+    border-radius: 5px;
 }

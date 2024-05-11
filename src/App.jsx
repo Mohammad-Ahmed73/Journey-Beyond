@@ -7,6 +7,7 @@ import Header from './components/Navbar.jsx';
 import Footer from './components/footer.jsx';
 import Home from './pages/Home';
 import Ecosystem from './pages/Ecosystem.jsx';
+import GuidedServices from './pages/GuidedServices.jsx';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/ecosystem' element={<Ecosystem />} />
+          <Route path='/guided-services' element={<GuidedServices />} />
         </Routes>
       </Router>
       <Footer />

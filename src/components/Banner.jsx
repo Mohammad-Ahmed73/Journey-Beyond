@@ -9,7 +9,7 @@ import AtriumLogo from "../assets/images/Atrium-logo.png";
 function Banner() {
   return (
     <section className="banner-main d-flex align-items-center justify-content-center position-relative overflow-hidden">
-      <video loop className="position-absolute top-0 left-0 w-100 h-100 bg-video">
+      <video autoPlay muted loop className="position-absolute top-0 left-0 w-100 h-100 bg-video">
         <source src={BannerVideo} type="video/mp4" />
       </video>
       <Container fluid="lg">

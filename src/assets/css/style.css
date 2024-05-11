@@ -83,9 +83,9 @@
   align-items: center;
 }
 
-.deal-slider .slider-items {
+/* .deal-slider .slider-items {
   padding: 60px 20px;
-}
+} */
 
 .deal-slider .deal-wrapper {
   display: flex;
@@ -439,6 +439,44 @@
   border-radius: 16px;
 }
 
+.btn.primary-btn {
+  font-family: Banshee Pilot;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.15em;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0px 2.4px 21px 0px #7925ffd9;
+  background: #7925ff14;
+  color: #ffffff;
+  padding: 16px 10px;
+  position: relative;
+  border: 0.6px solid #7d2cfe;
+}
+
+.btn.primary-btn:before,
+.btn.primary-btn:after {
+  content: "";
+  background: radial-gradient(
+    50.24% 50% at 49.76% 50%,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  display: inline-block;
+  width: 100%;
+  height: 1.8px;
+  position: absolute;
+  left: 0;
+  top: -1px;
+}
+
+.btn.primary-btn:after {
+  top: auto;
+  bottom: -1px;
+}
+
 @keyframes fadeInOut {
   0%,
   25% {
@@ -586,9 +624,12 @@
   }
 }
 
-
 .video-column {
-  background: linear-gradient(179.98deg, rgba(0, 0, 0, 0.6) 0.02%, rgba(0, 0, 0, 0) 157.58%);
+  background: linear-gradient(
+    179.98deg,
+    rgba(0, 0, 0, 0.6) 0.02%,
+    rgba(0, 0, 0, 0) 157.58%
+  );
 }
 
 .ecosystem-right-content-video .bg-video {
@@ -602,10 +643,10 @@
 }
 
 .scrollable-content::-webkit-scrollbar {
-  display: none;   
+  display: none;
 }
 
-.ecosystem-right-content-video  .content-wrapper {
+.ecosystem-right-content-video .content-wrapper {
   width: 100%;
   max-width: 520px;
   margin-inline: auto;
@@ -615,12 +656,249 @@
   .video-column {
     max-height: 720px;
   }
+  .image-column {
+    max-height: 720px;
+  }
 }
 
 .simple-logo-section {
-  background: linear-gradient(90deg, #999999 0%, #FFFFFF 100%);
+  background: linear-gradient(90deg, #999999 0%, #ffffff 100%);
 }
 
 .simple-logo-section .wrapper {
-  border: 2px solid #CB6CE6
+  border: 2px solid #cb6ce6;
+}
+
+.brain-brew-pdx:before {
+  content: "";
+  background-image: url(../images/brain-brew-PDX-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.brain-brew-pdx .title {
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 74px;
+  letter-spacing: 0.1em;
+}
+
+.brain-brew-pdx .desc-text {
+  font-size: 28px;
+  line-height: 46px;
+}
+
+.brain-brew-pdx .head-h4 {
+  line-height: 50px;
+  letter-spacing: 0.16em;
+  margin-bottom: 0;
+}
+
+.brain-brew-pdx .head-h4 a {
+  letter-spacing: 0px;
+}
+
+.simple-brew-section .wrapper {
+  min-height: 620px;
+}
+
+.simple-brew-section .title {
+  font-size: 26px;
+  line-height: 46px;
+}
+
+.how-it-works-section .head-h4 {
+  margin-bottom: 70px;
+}
+
+.how-it-works-section .btn.primary-btn {
+  font-size: 35px;
+  background: rgb(125 44 254 / 50%); 
+  padding: 14px 72px;
+}
+
+.how-it-work-points li {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 45px;
+  margin-bottom: 45px;
+  display: flex;
+  align-items: self-start;
+}
+
+.how-it-work-points li p {
+  width: 100%;
+  max-width: calc(100% - 64px);
+  padding-left: 40px;
+  margin-bottom: 0;
+}
+
+.how-it-work-points li:before {
+  content: "";
+  background: url("../images/list-icon.png") center no-repeat;
+  background-size: contain;
+  width: 64px;
+  height: 48px;
+  display: inline-block;
+  transition: all 0.1s ease;
+}
+
+.how-it-work-points li:hover:before {
+  background-image: url("../images/hover-list-icon.png");
+}
+
+@media (max-width: 1024px) {
+  .how-it-works-section .head-h4 {
+    margin-bottom: 50px;
+  }
+  .how-it-work-points li {
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 35px;
+  }
+  .how-it-work-points li p {
+    padding-left: 30px;
+    max-width: calc(100% - 50px);
+  }
+  .how-it-work-points li:before {
+    width: 50px;
+    height: 50px;
+  }
+  .how-it-works-section .btn.primary-btn {
+    font-size: 24px;
+    padding: 14px 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .how-it-works-section .head-h4 {
+    margin-bottom: 40px;
+  }
+  .how-it-works-section .btn.primary-btn {
+    font-size: 20px;
+    padding: 14px 40px;
+  }
+  .how-it-work-points li {
+    font-size: 20px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+  .how-it-work-points li p {
+    padding-left: 20px;
+    max-width: calc(100% - 40px);
+  }
+  .how-it-work-points li:before {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.triangle-divider-image img {
+  max-width: 840px;
+}
+
+
+
+.omniverse-section {
+  padding: 65px 0px;
+  background: #00000099;
+}
+
+.omniverse-section .bg-video {
+  transform: scale(2);
+}
+
+.guidedServices-right-content-video .head-h3 {
+  line-height: 50px;
+}
+
+.guidedServices-right-content-video .bg-video {
+  transform: scale(2);
+}
+
+.guidedServices-right-content-video .content-wrapper img {
+  max-width: 500px;
+}
+
+@media (max-width: 1366px) {
+  .guidedServices-right-content-video .bg-video {
+    transform: scale(3);
+  }
+  
+.ecosystem-right-content-video .bg-video {
+  transform: scale(2.5);
+}
+}
+
+@media (max-width: 992px) {
+  .omniverse-section {
+    padding: 40px 0px;
+  }
+  .omniverse-section .bg-video {
+    transform: scale(4);
+  }
+  .brain-brew-pdx .title { 
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .brain-brew-pdx .desc-text {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .brain-brew-pdx .head-h4 {
+    line-height: 32px;
+  }
+  .simple-brew-section .title {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .join-our-shared-section {
+    background-size: 100% !important;
+  }
+
+  .guidedServices-right-content-video .head-h3 {
+    line-height: 40px;
+  }
+  .guidedServices-right-content-video .bg-video {
+    transform: scale(2);
+  }
+  .guidedServices-right-content-video .content-wrapper img {
+    max-width: 400px;
+  }
+  .ecosystem-right-content-video .bg-video {
+    transform: scale(2);
+  }
+}
+
+@media (max-width: 768px) {
+  .omniverse-section .bg-video {
+    transform: scale(5.5);
+  }
+  .brain-brew-pdx .title { 
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .brain-brew-pdx .desc-text {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .brain-brew-pdx .head-h4 {
+    line-height: 28px;
+  }
+  .simple-brew-section .title {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .guidedServices-right-content-video .content-wrapper img {
+    max-width: 350px;
+  }
 }
